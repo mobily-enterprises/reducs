@@ -1,0 +1,36 @@
+{
+  "name": "reducs",
+  "version": "0.0.8",
+  "description": "A sane implementation of Redux",
+  "main": "reducs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf distr/* distr/**/*;rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mobily-enterprises/reducs.git"
+  },
+  "keywords": [
+    "redux",
+    "reducs",
+    "state"
+  ],
+  "author": "Tony Mobily",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/mobily-enterprises/reducs/issues"
+  },
+  "homepage": "https://github.com/mobily-enterprises/reducs#readme",
+  "devDependencies": {
+    "standard": "^14.3.1",
+    "eslint": "^6.3.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-lit": "^1.2.0",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}

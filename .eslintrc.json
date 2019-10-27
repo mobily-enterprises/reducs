@@ -1,0 +1,23 @@
+{
+  "extends": ["eslint:recommended", "standard"],
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "plugins": [
+    "html"
+  ],
+  "rules": {
+    "brace-style": "off",
+    "no-var": "error",
+    "require-jsdoc": "off",
+    "lit/no-legacy-template-syntax": "off",
+    "indent": ["error", 2, { "ignoreComments": true }]
+  },
+  "globals": {
+    "Polymer": true
+  }
+}
